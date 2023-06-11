@@ -1,5 +1,6 @@
 message('Loading Package')
 library(rvest)
+library(stringr)
 library(mongolite)
 
 message('Get BBCA Data')
