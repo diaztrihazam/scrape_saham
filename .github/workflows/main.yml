@@ -2,7 +2,7 @@ name: Daily Scraping Stocks
 
 on:
   schedule:
-    - cron: '0 17 * * *'  # runs at 17:00 every days
+    - cron: '0 10 * * *'  # runs at 17:00 every days in WIB
   workflow_dispatch:
 
 jobs:
